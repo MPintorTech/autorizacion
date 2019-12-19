@@ -13,6 +13,12 @@ function autorizacion(){
 
     }
 }
+
 function salir(){
     window.close();
+}
+
+function limpiar(){
+    document.getElementById("mensaje").value="";
+    document.getElementById("usuario").value="";
 }
